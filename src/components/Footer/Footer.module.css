@@ -1,0 +1,7 @@
+.footer {
+    box-shadow: var(--shadow);
+    background: var(--bg-header);
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+  }

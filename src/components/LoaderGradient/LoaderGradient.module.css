@@ -1,0 +1,32 @@
+.Loader {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    border: 1px solid var(--Loader-borderColor);
+    animation: animateLoader 1s linear infinite;
+  }
+  
+  .Loader_big {
+    border-radius: var(--radius);
+    height: 320px;
+    width: 80%;
+  }
+  
+  .Loader_square {
+    background: linear-gradient(var(--angle), var(--grLoader1), var(--blue), var(--grLoader1), var(--blue));
+  }
+  
+  .Loader_square {
+    background-size: 300% 300%;
+  }
+  @keyframes animateLoader {
+    0% {
+      background-position: top 0% left 100%;
+    }
+  
+    100% {
+      background-position: top 99% left 0%;
+    }
+  }

@@ -1,0 +1,58 @@
+
+.greeting_image {
+   background-image: url('../../img/avto_foto_full.jpg');
+   height: 500%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.greeting_text_up {
+   position: relative;
+   top: 5%;
+   left: 50%;
+   transform: translate(-50%, -5%);
+   color: white;
+}
+
+.greeting_text {
+   position: relative;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -70%);
+   color: white;
+}
+
+
+@media (max-width: 639px) {
+   .greeting_image {
+
+      height: 400%;
+
+   }
+}
+
+@media (max-width: 575px) {
+   .greeting_image {
+
+      height: 300%;
+
+   }
+}
+
+@media (max-width: 479px) {
+   .greeting_image {
+
+      height: 250%;
+
+   }
+}
+
+@media (max-width: 339px) {
+      .greeting_image {
+
+         height: 200%;
+
+      }
+
+   }
